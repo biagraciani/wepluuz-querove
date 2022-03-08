@@ -1,0 +1,65 @@
+.box-provedores{
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.box-provedores__grupo{
+   margin-left: 37px;
+ }
+
+ input.provedor{
+   width: 0;
+   height: 0;
+}
+
+.provedor__label{
+   height: 120px;
+   width: 120px;
+   display: flex;
+   border: 0.7px solid #3B49A1;
+   border-radius: 16px;
+   opacity: 1;
+   background: #0B1139 0% 0% no-repeat padding-box;  
+   align-items: center;
+ }
+
+ .provedor__label:hover{
+    box-shadow: 0px 0px 18px #BE34FF61;
+    border: 2px solid #BE34FF;
+  }
+
+ .img_provedor{
+   background-repeat: no-repeat;
+   background-size: 80px  60px;
+   height: 60px;
+   width: 80px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ .img_provedor.Netflix{
+    background-image: url('img/netflix_logo.svg');
+ }
+
+ .img_provedor.Amazon {
+    background-image: url('img/amazon_p_logo.svg');
+ }
+
+ .img_provedor.HBO {
+    background-image: url('img/hbo_max_logo.svg');
+ }
+
+ .img_provedor.Globo {
+    background-image: url('img/globo_p_logo.svg');
+ }
+
+ .img_provedor.Disney {
+    background-image: url('img/disney_logo.svg');
+ }
+
+ .img_provedor.Telecine {
+    background-image: url('img/telecine_logo.svg');
+ }
